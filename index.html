@@ -4,12 +4,14 @@
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Otis Redman Resume</title>
 </head>
 
 <body>
-    <header>
+    <!-----------------Header------------------->
+    <header class="container-fluid">
         <div class="row">
             <a href="index.html">
                 <div class="col-md-4 logo"></div>
@@ -21,19 +23,20 @@
                         <h2 class="title">Full Stack Developer</h2>
                     </div>
                 </div>
+    <!-----------------Nav------------------->
                 <div class="row">
                     <ul id="nav" class="list-inline clearfix">
                         <li class="col-xs-6 col-sm-3 ui-menu-colour-home menuitem">
-                            <a href="#"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+                            <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                         </li>
                         <li class="col-xs-6 col-sm-3 ui-menu-colour-resume menuitem">
-                            <a href="#"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
+                            <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
                         </li>
                         <li class="col-xs-6 col-sm-3 ui-menu-colour-contact menuitem">
-                            <a href="#"><i class="fa fa-commenting-o" aria-hidden="true"></i><span>Contact</span></a>
+                            <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-commenting-o" aria-hidden="true"></i><span>Contact</span></a>
                         </li>
                         <li class="col-xs-6 col-sm-3 ui-menu-colour-download menuitem">
-                            <a href="#"><i class="fa fa-download" aria-hidden="true"></i><span>Download CV</span></a>
+                            <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-download" aria-hidden="true"></i><span>Download CV</span></a>
                         </li>
 
                     </ul>
@@ -42,11 +45,40 @@
         </div>
 
     </header>
-    <section>
-
+    <!-----------------Section------------------->
+    <section class="container-fluid">
+            <div class="row row-table">
+                
+            </div>
+        </div>
     </section>
-    <footer>
+    <!-----------------Footer------------------->
+    <footer class="container-fluid">
+            <div id="footer-details" class="row">
+                <div class="col-sm-4">
+                    <h5 class="uppercase general-sub">About</h5>
+                    <p class="inline-block">
+                        Full Stack Web Developer. Skilled in everything from HTML to Heroku.<br> The capacity for structural and design thinking.
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <h5 class="uppercase general-sub">Download My CV</h5>
+                    <p class="inline-block">
+                        Need a printable version of my CV? Download it here!
+                        <a href="" class="cv-pdf"><i class="fa fa-download" aria-hidden="true"></i></a>
+                        <!-- aria-hidden="true" - hides icons for screen readers -->
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <h5 class="uppercase general-sub">Social</h5>
+                    <ul class="list-inline social-links">
+                        <li><a target="_blank" href="https://www.instagram.com/oatasaurus.rex/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a target="_blank" href="https://www.linkedin.com/in/otis-r-3b5ab9170/"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a target="_blank" href="https://www.pinterest.co.uk/otisredman/"><i class="fa fa-pinterest"></i></a></li>
 
+                    </ul>
+                </div>
+            </div>
     </footer>
 </body>
 
