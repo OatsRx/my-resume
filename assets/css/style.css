@@ -344,11 +344,12 @@ footer .cv-pdf i:hover {
     max-width: 70%;
 }
 
-button[type="submit"] {
+button[type="submit"]{
     margin-top: 10px;
     margin-bottom: 20px;
     background-color: #e84610;
     color: #fafafa;
+    border-radius: 15px;
 }
 
 /*-----------------Media queries---------------*/ 
